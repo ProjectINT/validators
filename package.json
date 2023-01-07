@@ -1,0 +1,31 @@
+{
+  "name": "google-address-functions",
+  "version": "1.0.1",
+  "description": "google address helper functions ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "yarn run babel src/ -d dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProjectINT/google-address-functions.git"
+  },
+  "keywords": [
+    "google",
+    "places",
+    "helpers"
+  ],
+  "author": "Yuri Palienko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProjectINT/google-address-functions/issues"
+  },
+  "homepage": "https://github.com/ProjectINT/google-address-functions#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.7",
+    "@babel/preset-flow": "^7.18.6",
+    "flow-bin": "^0.196.3"
+  }
+}
